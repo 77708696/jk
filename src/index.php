@@ -9,10 +9,15 @@
 echo __FILE__;
 
 echo time();
-print_r( get_included_files() );
-
+echo "jk0802";
+if($_GET['debug']) {
+    print_r( get_included_files() );
+}
 echo time() +1;
 
 
 
 echo "bugfix_51";
+
+echo time() +1;
+
