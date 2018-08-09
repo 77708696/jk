@@ -8,5 +8,7 @@
 
 echo __FILE__;
 
-
+echo time();
 print_r( get_included_files() );
+
+echo time() +1;
