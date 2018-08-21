@@ -6,6 +6,8 @@
  * and open the template in the editor.
  */
 
+phpinfo();
+
 echo __FILE__;
 
 echo time();
